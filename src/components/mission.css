@@ -9,11 +9,13 @@
 .texts p {
   text-align: left;
   padding-left: 8%;
+  color: #707070;
 }
 
 .video p {
   text-align: left;
   padding-left: 25%;
+  color: #707070;
 }
 .donate {
   height: 50vh;
