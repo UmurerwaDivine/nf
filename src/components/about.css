@@ -1,0 +1,67 @@
+.about {
+  height: 100vh;
+  padding-top: 8%;
+  padding-left: 7%;
+}
+.image {
+  width: 65%;
+  border-radius: 10px;
+  left: 10.22%;
+}
+#heading {
+  font-size: 30px;
+  color: #707070;
+  font-family: "regular";
+}
+.paragraph p {
+  color: #707070;
+  font-size: medium;
+  font-family: "regular";
+}
+.link a {
+  color: #fff;
+  font-size: small;
+  font-family: "regular";
+  /* font-family: "chaletBook-regular"; */
+}
+a:hover {
+  text-decoration-line: none;
+}
+
+.content {
+  padding-top: 8%;
+}
+.btn {
+  color: #fff;
+  font-size: small;
+  background-color: #f89c1e;
+  font-family: "regular";
+}
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .paragraph p {
+    color: #636363;
+  }
+
+  .col-sm-6.title {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 52%;
+  }
+  span {
+    font-size: large;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+  .paragraph p {
+    color: #636363;
+  }
+
+  .col-sm-6.title {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 550px;
+    margin-right: 2px;
+    width: 100%;
+  }
+}

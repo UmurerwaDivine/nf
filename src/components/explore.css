@@ -1,0 +1,37 @@
+.explores {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../images/amarango-yitombwe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explores p {
+  padding-top: 2%;
+  text-align: center;
+}
+a.homeNav {
+  color: #959595;
+}
+a.homeNav:hover {
+  text-decoration: none;
+  color: #f89c1e;
+}
+.cards {
+  width: 18rem;
+}
+.space {
+  padding: 8%;
+}
+@media all and (max-width: 670px) {
+  .texts {
+    margin: 15% 10%;
+  }
+  .firstRow {
+    display: block;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+}

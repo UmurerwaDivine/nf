@@ -1,0 +1,69 @@
+@import "~video-react/dist/video-react.css";
+.client {
+  background: #eeee;
+  height: 100vh;
+}
+h5 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.images p {
+  text-align: center;
+  color: #555;
+}
+.images {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.videoTitle h5 {
+  text-align: center;
+  padding-top: 2%;
+}
+.videoTitle {
+  padding: 5%;
+}
+.video {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+img.chickentStore-img {
+  width: 25%;
+  margin-left: 40%;
+  padding-bottom: 10%;
+}
+/* .image {
+  height: 30%;
+
+  width: 30%;
+} */
+/* .clients .image {
+  margin: 0.1em;
+} */
+/* .clients {
+  padding: 4% 0% 0% 3%;
+} */
+/* .our-clients {
+  background-color: #5555;
+  height: 100vh;
+} */
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  img.chickentStore-img {
+  }
+
+  .client_link {
+    height: 0vh;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+  img.chickentStore-img {
+    /* height: 40vh; */
+    width: 32%;
+    margin: 25px;
+  }
+}

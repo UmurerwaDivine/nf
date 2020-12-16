@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "regular";
+  src: url("../font/Proxima\ Nova\ Font.otf");
+}
+
+.home {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../images/congo2\ \(2\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* height: 70vh; */
+}
+p {
+  font-family: "regular";
+}
+li {
+  font-family: "regular";
+}
+h5 {
+  font-family: "regular";
+}
+.home p {
+  padding-top: 2%;
+  text-align: center;
+  font-family: "regular";
+  /* line-height: 5px; */
+}
+#firstLine {
+  padding-top: 15%;
+  font-weight: bold;
+  font-size: 54px;
+  color: #eeee;
+}
+#secondLine {
+  font-weight: bold;
+  font-size: 30px;
+  color: #eeee;
+}
+#thirdLine {
+  font-weight: bold;
+  font-size: 24px;
+  color: #eeee;
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .home_text {
+    text-align: center;
+  }
+  .home_text p span {
+    font-size: 33px;
+  }
+  .home_text p {
+    font-size: 33px;
+  }
+  .logo {
+    margin-left: 2px;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+  }
+  .home {
+    line-height: 45px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+  .home_text p span {
+    font-size: 60px;
+  }
+  .home_text p {
+    font-size: 60px;
+  }
+}

@@ -1,0 +1,48 @@
+/* @font-face {
+  font-family: "chaletBook-regular";
+  src: url("../fonts/ChaletBook.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "chaletBook-bold";
+  src: url("../fonts/ChaletBookBold.ttf");
+} */
+
+.services {
+  height: 60vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../images/IMG_0927\ \(2\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#head {
+  color: #f89c1e;
+  font-family: "chaletBook-regular";
+  font-size: 35px;
+}
+
+.title {
+  padding: 8%;
+}
+
+.title p {
+  color: #ffff;
+  font-size: 30px;
+  text-align: center;
+
+  /* font-family: "chaletBook-regular"; */
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  #pexplore {
+    font-size: large;
+    font-family: "chaletBook-regular";
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+}

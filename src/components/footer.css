@@ -1,0 +1,100 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242b30;
+  padding-top: 20px;
+
+  /* font-family: "chaletBook-regular"; */
+}
+h6 {
+  padding-bottom: 8%;
+  color: lightgray;
+  /* font-family: "chaletBook-bold"; */
+}
+
+#text1 {
+  margin-bottom: inherit;
+  color: #959595;
+  font-size: 12px;
+}
+
+p#text4 {
+  color: #959595;
+  font-size: 13px;
+  margin: 2px;
+}
+.column2 p {
+  cursor: pointer;
+}
+.column1 {
+  padding: 4%;
+  color: #959595;
+  font-weight: bold;
+}
+.column1 p {
+  font-size: medium;
+}
+.column4 {
+  width: 20%;
+  margin-right: 40px;
+}
+.email_input {
+  display: flex;
+}
+
+.socialMedia {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end; */
+  background-color: #242b30;
+  padding-bottom: 3.6px;
+}
+
+.socialMedia #fb {
+  color: #959595;
+  margin: 10px;
+}
+
+.copy {
+  background: #242b30;
+  text-align: center;
+  padding-bottom: 0.2px;
+}
+.copy .line {
+  display: block;
+  border: 0px;
+  border-bottom: 0.5px solid #959595;
+  padding: 0;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copy p {
+  padding-top: 8px;
+  color: rgb(156, 155, 155);
+  font-size: 12px;
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+  .column1 h6 {
+    font-size: 20px;
+    padding-bottom: 3px;
+  }
+
+  #text1 {
+    font-size: 7px;
+  }
+  .column4,
+  .column2 {
+    display: none;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 670px) and (max-width: 1000px) {
+  .column4 {
+    display: none;
+  }
+}
