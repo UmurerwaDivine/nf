@@ -20,6 +20,9 @@ a.homeNav:hover {
 .cards {
   width: 18rem;
 }
+.cards p {
+  color: #707070;
+}
 .space {
   padding: 8%;
 }
