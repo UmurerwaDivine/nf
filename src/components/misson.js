@@ -72,7 +72,7 @@ const Mission = props => {
                     </p>
                     <p>Together we can ensure that every child survives, learns and is protected.<br />
                      So that they can have the chance to fulfill their potential and to go on to build a better world.<br />
-                     Our strategy shows how, together, we can help make that promise a reality.
+                        <strong>Our strategy</strong>  shows how, together, we can help make that promise a reality.
 
                     </p>
                 </div>
