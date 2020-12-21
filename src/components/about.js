@@ -26,7 +26,7 @@ const About = props => {
 
             <div data-aos="fade-up" className="paragraph">
 
-              <p>Ntwari Foundation is a non-governmental Organization<br />
+              <p>CYCO-Youth and Child Protection is a non-governmental Organization<br />
               does whatever it takes every day <br />
 
               and in times of crisis to give children

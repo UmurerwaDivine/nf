@@ -7,7 +7,7 @@ const Footer = () => {
       <React.Fragment>
          <div className="footer">
             <div className="column1">
-               <p>NTWARI FOUNDATION</p>
+               <p>CYCO-YOUTH AND CHILD PROTECTION</p>
             </div>
 
             <div className="column2">

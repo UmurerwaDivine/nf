@@ -27,7 +27,7 @@ const Navbar = () => {
 	return (
 		<Nav>
 			<div className="logo">
-				<p>NTWARI FOUNDATION</p>
+				<p>CYCO-YOUTH AND CHILD PROTECTION</p>
 			</div>
 			<Burger />
 		</Nav>

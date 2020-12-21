@@ -29,7 +29,7 @@ const Navbar = () => {
 		<Nav>
 			<div className="logo">
 				<Link to="/">
-					<p>NTWARI FOUNDATION</p>
+					<p>CYCO-YOUTH AND CHILD PROTECTION</p>
 				</Link>
 			</div>
 			<Burger />

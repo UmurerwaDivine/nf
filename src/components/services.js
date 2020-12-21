@@ -14,7 +14,7 @@ const Services = (props) => {
 			<div data-aos="fade-left" className="title">
 
 				<p>
-					Ntwari Foundation works <br />
+					CYCO-Youth and Child Protection works <br />
 					exclusively to improve the resilience <br />
 					and wellbeing of children living <br />
 					with violence and armed conflict
