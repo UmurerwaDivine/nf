@@ -13,7 +13,7 @@ const Home = props => {
 
 
   return (
-    <div className="container-fluid home" id={id}>
+    <div className="home" id={id}>
       <div className="home_text">
         <p id="firstLine">CYCO-Youth and Child Protection</p>
         <p id="secondLine">What we believe , What we'll do</p>

@@ -8,8 +8,7 @@ const Ul = styled.ul`
 	flex-flow: row nowrap;
 
 	li {
-		padding:20px 5px 1px 10px;
-
+		padding: 25px 10px;
 		color: #555;
 		font-size:12px;
 		cursor:pointer;
@@ -22,7 +21,7 @@ const Ul = styled.ul`
 
 		}
 		.donation{
-			padding-top:4%;
+			padding:15px 10px;
 			
 		}
 
@@ -67,6 +66,11 @@ const RightNav = ({ open }) => {
 			<div className="donation">
 				<button className="btn">
 					MAKE DONATION
+				</button>
+			</div>
+			<div className="donation">
+				<button className="btn">
+					MONTHLY DONATION
 				</button>
 			</div>
 		</Ul>

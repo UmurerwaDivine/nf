@@ -28,9 +28,11 @@ const Ul = styled.ul`
 
 		}
 		.donation{
-			padding-top:4%;
+			padding: 15px 10px;
 			
 		}
+		
+		
 
 	@media (max-width: 786px) {
 		flex-flow: column nowrap;
@@ -77,6 +79,14 @@ const RightNav = ({ open, id }) => {
 					MAKE DONATION
 				</button>
 			</div>
+
+
+			<div className="donation">
+				<button className="btn">
+					MONTHLY DONATION
+				</button>
+			</div>
+
 
 		</Ul>
 	);

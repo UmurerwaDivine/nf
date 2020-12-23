@@ -22,9 +22,9 @@ const Explore = ({ id }) => {
 				<Navbar />
 				<div className="explores">
 					<div className="home_text">
-						<p id="firstLine">More About Us</p>
-						<p id="secondLine">TOGETHER WE CAN ENSURE THAT EVERY CHILD</p>
-						<p id="thirdLine">SURVIVES, LEARNS AND IS PROTECTED.</p>
+						<p id="firstLine" data-aos="fade-right">More About Us</p>
+						<p id="secondLine" data-aos="fade-left">TOGETHER WE CAN ENSURE THAT EVERY CHILD</p>
+						<p id="thirdLine" data-aos="fade-up">SURVIVES, LEARNS AND IS PROTECTED.</p>
 
 					</div>
 				</div>
