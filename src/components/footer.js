@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="column4 ">
                <h6>KEEP UP WITH US</h6>
                <p id="text1">ntwari.foundation@gmail.com</p>
-               <p id="text1">+(250)785846496</p>
+               <p id="text1">+1 (206) 304-2345</p>
                <p id="text1">Washington, Seattle</p>
 
 
