@@ -14,7 +14,12 @@ import 'aos/dist/aos.css';
 const Explore = ({ id }) => {
 	useEffect(() => {
 		Aos.init({ duration: 2000 })
+	},
+		[])
+	useEffect(() => {
+		window.scrollTo(0, 0)
 	}, [])
+
 
 	return (
 		<React.Fragment>

@@ -5,7 +5,9 @@ import mission from '../images/IMG_0946.PNG'
 import vision from '../images/IMG_0947.PNG'
 import strategy from '../images/IMG_0950.PNG'
 import video from '../images/ntwari.mp4'
-
+import first from '../images/01.JPG'
+import second from '../images/02.JPG'
+import third from '../images/03.JPG'
 const Client = (props) => {
     const { id } = props
     return (
@@ -47,6 +49,18 @@ const Client = (props) => {
                         <source src={video} />
                     </Player>
                 </div>
+                <div className="row">
+                    <div className="col-sm-4">
+                        <img className="children" src={first} alt="children" />
+                    </div>
+                    <div className="col-sm-4">
+                        <img className="children" src={second} alt="children" />
+                    </div>
+                    <div className="col-sm-4">
+                        <img className="children" src={third} alt="children" />
+                    </div>
+                </div>
+
             </div>
 
         </React.Fragment>

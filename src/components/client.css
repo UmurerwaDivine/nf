@@ -25,13 +25,21 @@ h5 {
 .video {
   padding-top: 1%;
   padding-bottom: 5%;
-  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  /* width: 400px; */
 }
 
 img.chickentStore-img {
   width: 25%;
   margin-left: 40%;
   padding-bottom: 10%;
+}
+.children {
+  width: 90%;
+  margin-left: 10%;
+  padding-bottom: 10%;
+  border-radius: 4px 4px;
 }
 /* .image {
   height: 30%;
