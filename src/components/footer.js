@@ -28,7 +28,7 @@ const Footer = () => {
                <h6>KEEP UP WITH US</h6>
                <p id="text1">ntwari.foundation@gmail.com</p>
                <p id="text1">+1 (206) 304-2345</p>
-               <p id="text1">Washington, Seattle</p>
+               <p id="text1">14729 Ne 8th street Bellevue wa 98007</p>
 
 
                <div className='socialMedia'>
