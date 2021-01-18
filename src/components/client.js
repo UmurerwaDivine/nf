@@ -26,19 +26,19 @@ const Client = (props) => {
                     <div className="col-sm-4">
                         <img className="chickentStore-img" src={vision} alt="children" />
                         <h5>OUR VISION</h5>
-                        <p>To inspire breakthroughs the way the<br />
-                     Democratic Republic of Congo <br />
-                     treats children and to achieve<br />
-                      immediate and lasting change in their lives.</p>
+                        <p> Our vision is to make sure<br />
+                         every child attains the right<br />
+                         to survival, protection, <br />
+                         development and participation.</p>
                     </div>
 
                     <div className="col-sm-4">
                         <img className="chickentStore-img" src={strategy} alt="children" />
                         <h5>OUR STRATEGY</h5>
-                        <p>To inspire breakthroughs the way the<br />
-                     Democratic Republic of Congo <br />
-                     treats children and to achieve<br />
-                      immediate and lasting change in their lives.</p>
+                        <p> We’ll work with children to create<br />
+                        an environment where they don’t just survive,  <br />
+                        but thrive. So they can realize their <br />
+                        full potential and go on to change the world.</p>
                     </div>
                 </div>
             </div>

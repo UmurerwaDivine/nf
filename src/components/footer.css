@@ -38,6 +38,9 @@ p#text4 {
   width: 20%;
   margin-right: 40px;
 }
+.column4 a {
+  color: #959595;
+}
 .email_input {
   display: flex;
 }
@@ -88,13 +91,13 @@ p#text4 {
   }
   .column4,
   .column2 {
-    display: none;
+    display: block;
   }
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
   .column4 {
-    display: none;
+    display: block;
   }
 }
