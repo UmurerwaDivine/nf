@@ -62,6 +62,7 @@ const Explore = ({ id }) => {
 						</div>
 					</div>
 				</div>
+				<hr />
 				<Mission />
 				<Footer />
 

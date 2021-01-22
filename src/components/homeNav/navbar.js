@@ -29,7 +29,7 @@ const Navbar = () => {
 		<Nav>
 			<div className="logo">
 				<Link to="/">
-					<p>CYCO-YOUTH AND CHILD PROTECTION</p>
+					<p>CHILD AND YOUTH CARE ORGANIZATION</p>
 				</Link>
 			</div>
 			<Burger />

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import "./about.css";
-import mac from '../images/IMG_0928.jpg'
+import cyco from '../images/cyco.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
@@ -16,8 +16,8 @@ const About = props => {
 
         <div className="row content">
 
-          <div data-aos="fade-right" className="col-sm-6 image">
-            <img className="image" src={mac} alt="children" />
+          <div data-aos="fade-right" className="col-sm-6 upgrade">
+            <img className="image" src={cyco} alt="children" />
 
           </div>
 
@@ -26,7 +26,7 @@ const About = props => {
 
             <div data-aos="fade-up" className="paragraph">
 
-              <p>CYCO-Youth and Child Protection is a non-governmental Organization<br />
+              <p>Child and Youth Care Organization is a non-governmental Organization<br />
               does whatever it takes every day <br />
 
               and in times of crisis to give children

@@ -12,7 +12,7 @@ const Client = (props) => {
     const { id } = props
     return (
         <React.Fragment>
-            <div ClassName="client" style={{ backgroundColor: "#eeee" }} id={id}>
+            <div ClassName="client" id={id}>
 
                 <div className="row images">
                     <div className="col-sm-4">
@@ -42,6 +42,7 @@ const Client = (props) => {
                     </div>
                 </div>
             </div>
+            <hr />
             <div className="videoTitle">
                 <h5>OUR STORY</h5>
                 <div className="video">

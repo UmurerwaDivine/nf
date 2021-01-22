@@ -2,10 +2,13 @@
   height: 100vh;
   padding-top: 8%;
   padding-left: 7%;
+  background-color: #e7e7e7;
 }
 .image {
   width: 65%;
-  border-radius: 10px;
+}
+.upgrade {
+  bottom: 50px;
   left: 10.22%;
 }
 #heading {
@@ -29,7 +32,7 @@ a:hover {
 }
 
 .content {
-  padding-top: 8%;
+  padding-top: 6%;
 }
 .btn {
   color: #fff;

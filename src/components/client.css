@@ -1,6 +1,5 @@
 @import "~video-react/dist/video-react.css";
 .client {
-  background: #eeee;
   height: 100vh;
 }
 h5 {
@@ -41,6 +40,23 @@ img.chickentStore-img {
   padding-bottom: 10%;
   border-radius: 4px 4px;
 }
+hr {
+  border: none;
+  border-top: 3px solid #e7e7e7;
+  color: #555;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: #fff;
+  content: "         ";
+  padding: 0% 30%;
+  position: relative;
+  top: -13px;
+}
+
 /* .image {
   height: 30%;
 

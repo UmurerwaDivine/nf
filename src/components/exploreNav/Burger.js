@@ -38,7 +38,7 @@ const StyledBurger = styled.div`
 `;
 
 const Burger = () => {
-	const [ open, setOpen ] = useState(false);
+	const [open, setOpen] = useState(false);
 	return (
 		<Fragment>
 			<StyledBurger open={open} onClick={() => setOpen(!open)}>

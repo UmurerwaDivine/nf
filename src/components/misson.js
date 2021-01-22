@@ -29,7 +29,7 @@ const Mission = props => {
                          and well-being of our community through access to healthy<br />
                          and nutritious foods, community education and advocacy
           </p>
-                        <p>CYCO-Youth and Child Protection works exclusively to improve the resilience and<br />
+                        <p>Child and Youth Care Organization works exclusively to improve the resilience and<br />
                         wellbeing of children living with violence and armed conflict.<br />
                          We empower children in everything we do. We work to unleash <br />
                          their inner strength through our creative and engaging approach.<br />
@@ -57,7 +57,7 @@ const Mission = props => {
                 </div>
                 <div className="video texts" data-aos="fade-up">
                     <h5>STRATEGY</h5>
-                    <p>CYCO-Youth and Child Protection was founded on the belief <br />
+                    <p>Child and Youth Care Organization was founded on the belief <br />
                     that every child has the potential to change his own life and that of the world at large.<br />
                      This belief remains at the heart of the organization today. <br />
                      It underpins everything we say and do - as reflected in our strategy <strong>‘What we believe, what we’ll do’.</strong>
