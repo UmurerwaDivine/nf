@@ -10,9 +10,9 @@
 } */
 
 .services {
-  height: 60vh;
+  height: 50vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/IMG_0927\ \(2\).jpg");
+    url("../images/IMG_0927\ \(2\).jpg") fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,8 +38,13 @@
 /* For Smartphones */
 @media all and (max-width: 670px) {
   #pexplore {
-    font-size: large;
+    font-size: medium;
     font-family: "chaletBook-regular";
+  }
+  .title p {
+    color: #ffff;
+    font-size: 27px;
+    text-align: center;
   }
 }
 

@@ -21,6 +21,15 @@ const Nav = styled.nav`
 		cursor: pointer;
 		color: #555;
 	}
+	@media (max-width: 768px) {
+		.logo p{
+content:'CYCO';
+		font-size:small;
+		cursor: pointer;
+		color: #555;
+
+		}
+	}
 `;
 
 const Navbar = () => {

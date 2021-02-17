@@ -17,10 +17,19 @@ const Nav = styled.nav`
 	z-index: 200;
 	background-color: white;
 	.logo p {
-		padding: 15px 0;
+		padding: 5% 0;
 		font-size:large;
 		cursor: pointer;
 		color: #555;
+	}
+	@media (max-width: 768px) {
+		.logo p{
+content:'CYCO';
+		font-size:small;
+		cursor: pointer;
+		color: #555;
+
+		}
 	}
 `;
 

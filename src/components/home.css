@@ -6,9 +6,8 @@
 .home {
   height: 100vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/congo2\ \(2\).jpg");
+    url("../images/congo2\ \(2\).jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
 
   /* height: 70vh; */
 }
@@ -46,7 +45,7 @@ h5 {
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .home_text {
+  /* .home_text {
     text-align: center;
   }
   .home_text p span {
@@ -60,6 +59,17 @@ h5 {
     margin-top: 20px;
     width: 150px;
     height: 40px;
+  } */
+
+  #firstLine {
+    padding-top: 45%;
+    font-size: 30px;
+  }
+  #secondLine {
+    font-size: 20px;
+  }
+  #thirdLine {
+    font-size: 15px;
   }
   .home {
     line-height: 45px;
@@ -71,10 +81,26 @@ h5 {
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-  .home_text p span {
-    font-size: 60px;
+  .home p {
+    /* padding-top: 20%; */
+    text-align: center;
+    font-family: "regular";
+    /* line-height: 5px; */
   }
-  .home_text p {
-    font-size: 60px;
+  #firstLine {
+    padding-top: 15%;
+    font-size: 30px;
+  }
+  #secondLine {
+    font-size: 20px;
+  }
+  #thirdLine {
+    font-size: 15px;
+  }
+  .home {
+    line-height: 30px;
+  }
+  p {
+    text-align: center;
   }
 }

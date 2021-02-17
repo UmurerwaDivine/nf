@@ -81,23 +81,37 @@ p#text4 {
 
 /* For Smartphones */
 @media all and (max-width: 670px) {
-  .column1 h6 {
-    font-size: 20px;
-    padding-bottom: 3px;
+  .column2 .column3 .column4 h6 {
+    font-size: small;
   }
 
   #text1 {
     font-size: 7px;
   }
   .column4,
-  .column2 {
+  .column2,
+  .column4,
+  .socialMedia {
     display: block;
+  }
+  .column1 p {
+    font-size: small;
   }
 }
 
 /* For Tablets */
 @media (min-width: 670px) and (max-width: 1000px) {
-  .column4 {
+  .column2 .column3 .column4 h6 {
+    font-size: small;
+  }
+  .footer {
+    display: flex;
+  }
+  .column1,
+  .column3,
+  .column2,
+  .column4,
+  .socialMedia {
     display: block;
   }
 }
