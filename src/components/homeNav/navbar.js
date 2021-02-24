@@ -4,10 +4,10 @@ import Burger from './Burger';
 import { Link } from 'react-scroll';
 
 const Nav = styled.nav`
-	/* width: 100%;  */
+	width: 100%; 
 	 height: 64px;
 	/* border-bottom: 2px solid #f1f1f1; */
-	padding: 2px 20px 4px;
+	/* padding: 2px 20px 4px; */
 	display: flex;
 	position: fixed;
 	top: 0;

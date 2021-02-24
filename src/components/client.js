@@ -50,6 +50,7 @@ const Client = (props) => {
                         <source src={video} />
                     </Player>
                 </div>
+                <h5>GALLERY</h5>
                 <div className="row">
                     <div className="col-sm-4">
                         <img className="children" src={first} alt="children" />
