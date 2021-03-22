@@ -8,10 +8,7 @@ const Nav = styled.nav`
 	/* border-bottom: 2px solid #f1f1f1; */
 	padding: 2px 20px 4px;
 	display: flex;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+	/* position: fixed; */
 	justify-content: space-between;
 	z-index: 200;
 	background-color: white;

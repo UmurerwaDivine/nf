@@ -6,9 +6,9 @@ import RightNav from './RightNav';
 const StyledBurger = styled.div`
 	width: 2rem;
 	height: 2rem;
-	position: fixed;
+	/* position: fixed; */
 	top: 15px;
-	right: 10px;
+	right: 20px;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: column nowrap;
@@ -18,8 +18,8 @@ const StyledBurger = styled.div`
 		display: flex;
 	}
 	div {
-		/* width: 2rem;
-		height: 0.25rem; */
+		width: 2rem;
+		height: 0.25rem;
 		background-color: ${({ open }) => (open ? '#ccc' : '#333')};
 		border-radius: 10px;
 		transform-origin: 1px;
@@ -52,3 +52,4 @@ const Burger = () => {
 };
 
 export default Burger;
+
