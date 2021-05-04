@@ -27,7 +27,7 @@ const About = props => {
             <div data-aos="fade-up" className="paragraph">
 
               <p><strong>Child and Youth Care organization(cyco)</strong><br />
-              does whatever it takes every day is a non-governmental Organization<br />
+              is a non-governmental Organization does whatever it takes every day<br />
 
               and in times of crisis to give children
 
