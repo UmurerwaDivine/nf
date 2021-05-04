@@ -39,7 +39,7 @@ const Explore = ({ id }) => {
 							<img className="card-img-top" src={survive} alt="children" />
 							<div className="card-body">
 								<h5 className="card-title">SURVIVE</h5>
-								<p className="card-text">No child dies from preventable causes before their fifth birthday</p>
+								<p className="card-text">No child dies from preventable causes before their fifth birthday.</p>
 							</div>
 						</div>
 					</div>
@@ -48,7 +48,7 @@ const Explore = ({ id }) => {
 							<img className="card-img-top" src={learn} alt="children" />
 							<div className="card-body">
 								<h5 className="card-title">LEARN</h5>
-								<p className="card-text">All children learn from a quality basic education<br /></p>
+								<p className="card-text">All children learn from a quality basic education.<br /></p>
 							</div>
 						</div>
 					</div>
@@ -57,7 +57,7 @@ const Explore = ({ id }) => {
 							<img className="card-img-top" src={protect} alt="children" />
 							<div className="card-body">
 								<h5 className="card-title">PROTECT</h5>
-								<p className="card-text">Violence against children is no longer tolerated</p>
+								<p className="card-text">Violence against children is no longer tolerated.</p>
 							</div>
 						</div>
 					</div>
