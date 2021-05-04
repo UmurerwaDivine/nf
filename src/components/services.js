@@ -17,7 +17,7 @@ const Services = (props) => {
 					Child and Youth Care Organization works <br />
 					exclusively to improve the resilience <br />
 					and wellbeing of children living <br />
-					with violence and armed conflict
+					with violence and armed conflict.
 					</p>
 			</div>
 		</div>

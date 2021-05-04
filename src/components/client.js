@@ -15,14 +15,7 @@ const Client = (props) => {
             <div ClassName="client" id={id}>
 
                 <div className="row images">
-                    <div className="col-sm-4">
-                        <img className="chickentStore-img" src={mission} alt="children" />
-                        <h5>OUR MISSION</h5>
-                        <p>To inspire breakthroughs the way the<br />
-                     Democratic Republic of Congo <br />
-                     treats children and to achieve<br />
-                      immediate and lasting change in their lives.</p>
-                    </div>
+
                     <div className="col-sm-4">
                         <img className="chickentStore-img" src={vision} alt="children" />
                         <h5>OUR VISION</h5>
@@ -31,7 +24,14 @@ const Client = (props) => {
                          to survival, protection, <br />
                          development and participation.</p>
                     </div>
-
+                    <div className="col-sm-4">
+                        <img className="chickentStore-img" src={mission} alt="children" />
+                        <h5>OUR MISSION</h5>
+                        <p>To inspire breakthroughs the way the<br />
+                     Democratic Republic of Congo <br />
+                     treats children and to achieve<br />
+                      immediate and lasting change in their lives.</p>
+                    </div>
                     <div className="col-sm-4">
                         <img className="chickentStore-img" src={strategy} alt="children" />
                         <h5>OUR STRATEGY</h5>

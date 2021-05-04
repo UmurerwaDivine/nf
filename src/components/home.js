@@ -15,9 +15,9 @@ const Home = props => {
   return (
     <div className="home" id={id}>
       <div className="home_text">
-        <p id="firstLine">Child and Youth Care Organization</p>
-        <p id="secondLine">What we believe , What we'll do</p>
-        <p id="thirdLine">Survive , Learn , Be protected</p>
+        <p id="firstLine">Child and Youth Care Organization(cyco)</p>
+        <p id="secondLine">What we believe, What we'll do,</p>
+        <p id="thirdLine">Survive, Learn, Be protected.</p>
       </div>
     </div>
 

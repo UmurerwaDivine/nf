@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
+import { Link } from 'react-scroll';
 
 const Nav = styled.nav`
 	/* width: 100%;  */
@@ -33,7 +34,9 @@ const Navbar = () => {
 	return (
 		<Nav>
 			<div className="logo">
-				<p>CHILD AND YOUTH CARE ORGANIZATION</p>
+				<Link to="/">
+					<p>CHILD AND YOUTH CARE ORGANIZATION</p>
+				</Link>
 			</div>
 			<Burger />
 		</Nav>
