@@ -1,12 +1,11 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 // import Navigation from "./navigation";
-import NavBar from './homeNav/navbar'
+import NavBar from "../homeNav/navbar";
 import Home from "./home";
 import Services from "./services";
-import Client from './client';
+import Client from "./client";
 import About from "./about";
 import Contact from "./contact";
-
 
 const LandingPage = () => {
   return (
@@ -19,7 +18,7 @@ const LandingPage = () => {
       <Client id="section4" />
       <Contact id="section5" />
     </Fragment>
-  )
-}
+  );
+};
 
 export default LandingPage;

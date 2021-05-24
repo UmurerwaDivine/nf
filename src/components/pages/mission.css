@@ -2,7 +2,7 @@
   color: white;
   height: 100vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/36769435-6010-4676-b905-cd5bdc9f5b21.JPG");
+    url("../../images/36769435-6010-4676-b905-cd5bdc9f5b21.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,8 +20,21 @@
 .donate {
   height: 50vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../images/a47833b3-2bf3-451b-bf36-db076bfe2ebe.JPG") no-repeat;
+    url("../../images/a47833b3-2bf3-451b-bf36-db076bfe2ebe.JPG") no-repeat;
   background-size: cover;
+}
+.page {
+  height: 50vh;
+  background: url("../../images/Desktop\ -\ 1.jpg") no-repeat;
+  background-size: cover;
+}
+.strat {
+  padding-left: 8%;
+  color: #707070;
+  padding: 2%;
+}
+.strat .oneCard {
+  margin: 2%;
 }
 .contain {
   padding-bottom: 10%;

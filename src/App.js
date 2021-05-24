@@ -1,14 +1,13 @@
-
-import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Explore from './components/explore';
-import LandingPage from './components/landingpage';
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Explore from "./components/pages/explore";
+import LandingPage from "./components/pages/landingpage";
 // import Home from './components/home';
-import Services from './components/services';
-import Client from './components/client';
-import About from './components/about';
-import Contact from './components/contact';
-import './App.css';
+import Services from "./components/pages/services";
+import Client from "./components/pages/client";
+import About from "./components/pages/about";
+import Contact from "./components/pages/contact";
+import "./App.css";
 
 const App = () => {
   return (
@@ -17,12 +16,12 @@ const App = () => {
         <Fragment>
           <Switch>
             <Route exact path="/" component={LandingPage} />
-            <Route exact path="/explore" component={Explore} />
-            <Route exact path="/home" component={LandingPage} />
-            <Route exact path="/services" component={Services} />
-            <Route exact path="/client" component={Client} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
+            <Route path="/explore" component={Explore} />
+            <Route path="/home" component={LandingPage} />
+            <Route path="/services" component={Services} />
+            <Route path="/client" component={Client} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </Fragment>
       </Router>
