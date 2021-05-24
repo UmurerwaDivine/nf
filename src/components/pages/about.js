@@ -10,7 +10,7 @@ const About = (props) => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <React.Fragment>
+    <>
       {/* // <div className="container-fluid"> */}
       <div className="container-fluid about" id={id}>
         <div className="row content">
@@ -52,7 +52,7 @@ const About = (props) => {
       </div>
 
       {/* // </div> */}
-    </React.Fragment>
+    </>
   );
 };
 

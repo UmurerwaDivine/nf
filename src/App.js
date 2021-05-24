@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Explore from "./components/pages/explore";
 import LandingPage from "./components/pages/landingpage";
@@ -11,21 +11,19 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Fragment>
+    <>
       <Router>
-        <Fragment>
-          <Switch>
-            <Route exact path="/" component={LandingPage} />
-            <Route path="/explore" component={Explore} />
-            <Route path="/home" component={LandingPage} />
-            <Route path="/services" component={Services} />
-            <Route path="/client" component={Client} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
-        </Fragment>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/explore" component={Explore} />
+          <Route path="/home" component={LandingPage} />
+          <Route path="/services" component={Services} />
+          <Route path="/client" component={Client} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
       </Router>
-    </Fragment>
+    </>
   );
 };
 

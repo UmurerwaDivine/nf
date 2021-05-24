@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "./footer";
 import Mission from "./misson";
 import survive from "../../images/children.png";
-import mothers from "../../images/85765864-4b6e-4cb3-8563-e2245cdd1458.JPG";
+import mother from "../../images/85765864-4b6e-4cb3-8563-e2245cdd1458.JPG";
 import learn from "../../images/download.jpg";
 import protect from "../../images/images.jpg";
 import Navbar from "../exploreNav/navbar";
@@ -33,7 +33,7 @@ const Explore = ({ id }) => {
             <p id="LineThree" data-aos="fade-up">
               SURVIVES, LEARNS AND IS PROTECTED.
             </p>
-            <img className="img-explore" src={mothers} alt="children" />
+            <img className="img-explore" src={mother} alt="children" />
           </div>
         </div>
         <div className="row space">
