@@ -21,7 +21,7 @@ const Mission = (props) => {
               <br />
               to survival, protection, development and participation.
             </p>
-            <p>
+            <p id="par">
               We envision a community where everyone has access to good quality,
               <br />
               nutritious food, understands the consequences of hunger and poor
@@ -35,7 +35,7 @@ const Mission = (props) => {
               of children today in the{" "}
               <strong>Democratic Republic of Congo.</strong>
             </p>
-            <p>
+            <p id="par">
               We’re committed to supporting these children to overcome their
               experiences,
               <br />
@@ -57,14 +57,14 @@ const Mission = (props) => {
               treats children and to achieve immediate and lasting change in
               their lives.
             </p>
-            <p>
+            <p id="par">
               To help children create a future of hope for themselves,
               <br />
               for their families, and communities by helping them to develop{" "}
               <br />
               the skills and resources to overcome poverty and injustice.
             </p>
-            <p>
+            <p id="par">
               To help eliminate hunger and improve the health
               <br />
               and well-being of our community through access to healthy
@@ -73,7 +73,7 @@ const Mission = (props) => {
             </p>
           </div>
         </div>
-        <div className="video texts" data-aos="fade-up">
+        <div data-aos="fade-up" className="texts strat" style={{}}>
           <h5>STRATEGY</h5>
           <p>
             Child and Youth Care Organization was founded on the belief <br />
@@ -84,7 +84,7 @@ const Mission = (props) => {
             And it underpins everything we say and do - as reflected in our
             strategy <strong>‘what we believe, what we’ll do.’</strong>
           </p>
-          <p>
+          <p id="para">
             Child and Youth Care organization works exclusively to improve the
             resilience and
             <br />
@@ -96,14 +96,14 @@ const Mission = (props) => {
             We deliver vital child protection, education and psychosocial
             support.
           </p>
-          <p>
+          <p id="para">
             We’ll work with children to create an environment where they don’t
             just survive, but thrive.
             <br />
             So they can realize their full potential and go on to change the
             world.
           </p>
-          <p>
+          <p id="para">
             The threats faced by millions of children – poverty, conflict,
             hunger – are daunting.
             <br />

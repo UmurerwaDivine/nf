@@ -53,7 +53,7 @@ h5 {
 
 /* For Smartphones */
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   /* .home_text {
     text-align: center;
   }
