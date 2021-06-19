@@ -42,13 +42,7 @@ body{
 
 
 /* Legend */
-.legend{
-  border:100px solid transparent;
-  border-left:800px solid rgba(52, 73, 94, .7);
-  border-bottom:0;
-  position:absolute;
-  bottom:0;
-}
+
 
 /* Contents */
 .content{
