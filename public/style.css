@@ -6,8 +6,8 @@ body{
 }
 /* Slider */
 #slider{
-  width:200%;
-  height:400px;
+  width:150%;
+  height:500px;
   position:relative;
   overflow:hidden;
 }
