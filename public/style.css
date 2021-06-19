@@ -16,7 +16,7 @@ body{
   to{left:0;}
 }
 .slides{
-  width:700%;
+  width:100%;
   height:100%;
   position:relative;
   -webkit-animation:slide 30s infinite;
