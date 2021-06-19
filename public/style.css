@@ -7,7 +7,7 @@ body{
 /* Slider */
 #slider{
   width:100%;
-  height:500px;
+  height:400px;
   position:relative;
   overflow:hidden;
 }
@@ -25,7 +25,7 @@ body{
 }
 .slider{
   width:25%;
-  height:auto;
+  height:100;
   float:left;
   position:relative;
   z-index:1;
@@ -43,7 +43,7 @@ body{
 
 /* Legend */
 .legend{
-  border:500px solid transparent;
+  border:100px solid transparent;
   border-left:800px solid rgba(52, 73, 94, .7);
   border-bottom:0;
   position:absolute;
