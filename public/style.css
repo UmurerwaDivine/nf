@@ -98,17 +98,6 @@ body{
 .switch > ul{
   list-style:none;
 }
-.imagesss{
-	width: 50%;
-  height: auto;
-}
-
-.imageUnderSlider{
-	width:10%;
-  height: auto;
-}
-
-
 
 .switch > ul > li{
   width:10px;
