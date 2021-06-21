@@ -15,7 +15,7 @@ body{
   from{left:-100%;}
   to{left:0;}
 }
-.slides{
+.slidesj{
   width:400%;
   height:500%;
   position:relative;
@@ -23,7 +23,7 @@ body{
   -moz-animation:slide 30s infinite;
   animation:slide 30s infinite;
 }
-.sliderg{
+.slider{
   width:25%;
   height:100;
   float:left;
