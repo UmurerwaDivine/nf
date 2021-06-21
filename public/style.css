@@ -32,7 +32,7 @@ body{
   overflow:hidden;
 }
 .slide img{
-  width:100%;
+  width:0%;
   height:auto;
 }
 .slide img{
@@ -71,7 +71,7 @@ body{
   font-family:Arial;
   text-transform:uppercase;
   font-size:24px;
-  color:#7F1D05;
+  color:#FFFFFF;
   text-align:left;
   margin-left:30px;
   padding-bottom:10px;
