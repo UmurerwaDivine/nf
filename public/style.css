@@ -6,7 +6,7 @@ body{
 }
 /* Slider */
 #slider{
-  width:90%;
+  width:30%;
   height:500px;
   position:relative;
   overflow:hidden;
