@@ -23,7 +23,7 @@ body{
   -moz-animation:slide 30s infinite;
   animation:slide 30s infinite;
 }
-.slider{
+.sliderg{
   width:25%;
   height:100;
   float:left;
@@ -31,11 +31,11 @@ body{
   z-index:1;
   overflow:hidden;
 }
-.slide img{
-  width:0%;
+.slide imgg{
+  width:1000%;
   height:auto;
 }
-.slide img{
+.slide imgg{
   width:110%;
   height:100%;
 }
